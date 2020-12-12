@@ -16,7 +16,7 @@ $get_all_provines_stm2  = SuperModel:: get_all_provinces();
         <title>Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href="css/nav.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;subset=latin-ext" rel="stylesheet">
 
         <!-- CSS -->
@@ -30,10 +30,14 @@ $get_all_provines_stm2  = SuperModel:: get_all_provinces();
 
 <link href="css/bostrap.css" rel="stylesheet" type="text/css"/>
 <script src="js/boostrapjs.js" type="text/javascript"></script>
-
+<link href="css/footer.css" rel="stylesheet" type="text/css"/>
 <link href="css/modelcss.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+       
+        
+        
+        
         <div class="site" id="page">
             
             <div id="responseModal" class="modal fade" role="dialog">
@@ -227,11 +231,31 @@ $get_all_provines_stm2  = SuperModel:: get_all_provinces();
             <a class="skip-link sr-only" href="#main">Skip to content</a>
 
             <!-- Options headline effects: .rotate | .slide | .zoom | .push | .clip -->
-            <section class="hero-section hero-section--image clearfix clip">
+           
+                <div class="wrapper">
+         <header>
+            <nav>
+                <section class="hero-section hero-section--image clearfix clip">
                 <div class="hero-section__wrap">
-                    <div class="hero-section__option">
-                        <img src="assets/images/index.jpg" alt="Hero section image">
-                    </div>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               
+                    <div class="menu" style="z-index: 2;position: relative;">
+                  <ul>
+                      <div class="logo" style="z-index: 2;position: relative;">
+                   <img src="images/cortofams.png" />
+               </div>
+                      <li><a href="login.php"><b>Login</b></a></li>
+                     <li><a data-toggle="modal" href="#" data-target="#myModal" ><b>Give Respons</b></a></li>
+                     <li><a data-toggle="modal" href="#" data-target="#responseModal"><b>View Response</b></a></li>
+                 
+                  </ul>
+                   
+             
+               </div>
+                
+                   
                     <!-- .hero-section__option -->
 
                     <div class="container">
@@ -246,25 +270,109 @@ $get_all_provines_stm2  = SuperModel:: get_all_provinces();
                                             <span class="title__effect">REAL</span>
                                         </strong>
                                     </h2>
-                                    <div class="title__description">COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization</div>
-
-                                    <!-- Options btn color: .btn-success | .btn-info | .btn-warning | .btn-danger | .btn-primary -->
-                                    <div data-toggle="modal" data-target="#responseModal" class="title__action"><a href="#" class="btn btn-success">View Response</a></div>
+                             
                                 </div> <!-- .title-01 -->
                             </div>
+                            
+                            
                         </div>
+                        
                     </div>
+                    
+                                    
                 </div>
             </section>
+            </nav>
+             
+         </header>
+         
+      </div>
+             
         </div>
+        <footer class="footer" style="z-index: 2;position: relative;">
+                  <div class="container bottom_border">
+                  <div class="row">
+                  <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                  <li><a href="https://zrdc.org/">ZRDC</a></li>
+                  <li><a href="http://fims.pofarms.icu/">FIMS</a></li>
+                  <li><a href="https://www.icuzambia.net/">ICU Zmabia</a></li>
+                  <li><a href="http://dbms.pofarms.icu/">COVID-19 Response Monitor</a></li>
+                 
+                  
+                  </ul>
+                  <!--footer_ul_amrc ends here-->
+                  </div>
 
-        <div class="button-group">
-        	<a data-toggle="modal" data-target="#myModal" class="btn btn-outline-success button-sm">Give Response</a>
-           
-        </div>
+
+                  <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2"></h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                  
+                  </ul>
+                  <!--footer_ul_amrc ends here-->
+                  </div>
+
+
+                  <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Zambia</h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                  <li><a href="#"><b>18,091 (+29)</b> Confirmed</a></li>
+                   <li><a href="#"><b>364 (0)</b> Deaths</a></li>
+                    <li><a href="#"><b>17,307</b> Recovered</a></li>
+                  </ul>
+                  <!--footer_ul_amrc ends here-->
+                  </div>
+
+
+                  <div class=" col-sm-4 col-md  col-12 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2">Developer</h5>
+                  <!--headin5_amrc ends here-->
+
+                  <ul class="footer_ul_amrc">
+                  <li><a href="#"><b>Student Name: </b> Charles Chanda Kasonde</a></li>
+                   <li><a href="#"><b>Stuent Number: </b> 1810208806</a></li>
+                    <li><a href="#"><b>Course: </b> Maters In Infromation Communication Technology</a></li>
+                    <li><a href="#"><b>Phone Number: </b> 0977886299</a></li>
+                    <li><a href="#"><b>E-Mail: </b>cckasonde@gmil.com</a></li>
+                    
+                  </ul>
+                  <!--footer_ul2_amrc ends here-->
+                  </div>
+                  </div>
+                  </div>
+
+
+                 
+
+                  </footer>  
+
+      
         
         
-        
+        <script>
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      }); 
+        </script> 
       <script src="js/GetResponses.js" type="text/javascript"></script>  
     <script src="js/RelaodDistrictResponse.js" type="text/javascript"></script>
  <script src="js/RelaodDistrict.js" type="text/javascript"></script>

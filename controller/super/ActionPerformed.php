@@ -57,6 +57,52 @@
       
     
           
+ } else if (isset ($_POST['btn_add_user']) )
+ {
+
+   
+  
+    $name = trim(filter_input(INPUT_POST, 'name', FILTER_DEFAULT));
+    $username = trim(filter_input(INPUT_POST, 'username', FILTER_DEFAULT));
+     $password = trim(filter_input(INPUT_POST, 'password', FILTER_DEFAULT));
+    
+    
+    
+                 if (SuperModel::add_user($name,$username,$password))
+        {
+            
+                      echo "<script>              
+            $(document).ready(
+             
+            function(){
+                
+               $.jnoty('User Successfully Submitted :)', {
+            sticky: false,
+            header: 'Notification',
+            theme: 'jnoty-success',
+            close: function() {window.location.replace('/HSRM/home.php')},
+            });   
+            }); 
+            </script>"; 
+        }else
+        {
+                 echo "<script>               
+            $(document).ready(
+             
+            function(){
+                
+               $.jnoty('User Not Successfully Submitted', {
+            sticky: false,
+            header: 'Erro',
+            theme: 'jnoty-danger',
+            close: function() {window.location.replace('/HSRM/home.php')},
+            });   
+            }); 
+            </script>"; 
+        }
+      
+    
+          
  }
  
  else if (isset ($_POST['Test']))
