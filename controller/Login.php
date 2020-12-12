@@ -20,7 +20,7 @@ if (isset($_POST['username'])) {
     } else {
         echo("<SCRIPT LANGUAGE='JavaScript'>
 		      window.alert('wrong user name or password Please re-enter ');
-			 location.href='/HSRM/login.php';   
+			 location.href='/login.php';   
              </SCRIPT>" );
     }
 }

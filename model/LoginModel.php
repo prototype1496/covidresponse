@@ -34,7 +34,7 @@ class LoginModel {
     public function redirectUser($row) {
 
      $_SESSION['username'] = $row['username'];
-     header("location:/HSRM/home.php");
+     header("location:/home.php");
     }
 
 }

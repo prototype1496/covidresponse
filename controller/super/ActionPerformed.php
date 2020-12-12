@@ -34,7 +34,7 @@
             sticky: false,
             header: 'Notification',
             theme: 'jnoty-success',
-            close: function() {window.location.replace('/HSRM/')},
+            close: function() {window.location.replace('/')},
             });   
             }); 
             </script>"; 
@@ -49,7 +49,7 @@
             sticky: false,
             header: 'Erro',
             theme: 'jnoty-danger',
-            close: function() {window.location.replace('/HSRM/')},
+            close: function() {window.location.replace('/')},
             });   
             }); 
             </script>"; 
@@ -80,7 +80,7 @@
             sticky: false,
             header: 'Notification',
             theme: 'jnoty-success',
-            close: function() {window.location.replace('/HSRM/home.php')},
+            close: function() {window.location.replace('/home.php')},
             });   
             }); 
             </script>"; 
@@ -95,7 +95,7 @@
             sticky: false,
             header: 'Erro',
             theme: 'jnoty-danger',
-            close: function() {window.location.replace('/HSRM/home.php')},
+            close: function() {window.location.replace('/home.php')},
             });   
             }); 
             </script>"; 
