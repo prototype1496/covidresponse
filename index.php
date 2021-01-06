@@ -334,11 +334,9 @@ $get_all_provines_stm2  = SuperModel:: get_all_provinces();
                   <!--headin5_amrc ends here-->
 
                   <ul class="footer_ul_amrc">
-                  <li><a href="#"><b>Student Name: </b> Charles Chanda Kasonde</a></li>
-                   <li><a href="#"><b>Stuent Number: </b> 1810208806</a></li>
-                    <li><a href="#"><b>Course: </b> Maters In Infromation Communication Technology</a></li>
-                    <li><a href="#"><b>Phone Number: </b> 0977886299</a></li>
-                    <li><a href="#"><b>E-Mail: </b>cckasonde@gmil.com</a></li>
+                  <li><a href="#"><b>Name: </b> Alienvern</a></li>
+                
+                    <li><a href="#"><b>E-Mail: </b>alienverntech@gmail.com</a></li>
                     
                   </ul>
                   <!--footer_ul2_amrc ends here-->
