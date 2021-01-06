@@ -4,10 +4,10 @@ class Connection{
     
     
   public function connect() {
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "hsrm_zambia";
+        $servername = "j5zntocs2dn6c3fj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com";
+        $username = "bm5s611zkqt42wa8";
+        $password = "gpzer2l28th3fbpn";
+        $dbname = "czfn6g96tuk6wybk";
 
 //Create connection
         
